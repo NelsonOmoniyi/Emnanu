@@ -477,6 +477,135 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Hero2 Section
+--------------------------------------------------------------*/
+#hero2 {
+  width: 100%;
+  height: 80vh;
+  background: url("../img/hero2-bg.jpeg") top center;
+  background-size: cover;
+  position: relative;
+}
+
+#hero2:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero2 .container {
+  padding-top: 72px;
+}
+
+@media (max-width: 992px) {
+  #hero2 .container {
+    padding-top: 62px;
+  }
+}
+
+#hero2 h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #d8d3d3;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 1024px) {
+  #hero2 {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero2 {
+    height: 100vh;
+  }
+
+  #hero2 h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Hero3 Section
+--------------------------------------------------------------*/
+#hero3 {
+  width: 100%;
+  height: 80vh;
+  background: url("../img/hero3-bg.png") top center;
+  background-size: cover;
+  position: relative;
+  color: #d8d3d3;
+}
+
+#hero3:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero3 .container {
+  padding-top: 72px;
+}
+
+@media (max-width: 992px) {
+  #hero3 .container {
+    padding-top: 62px;
+  }
+}
+
+#hero3 h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 1024px) {
+  #hero3 {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero3 {
+    height: 100vh;
+  }
+
+  #hero3 h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Fund Section
+--------------------------------------------------------------*/
+/* @media (min-width: 1024px) {
+  #fund .col-lg-4 {
+    margin: 2px;
+  }
+}
+
+@media (max-width: 768px) {
+  #fund .col-lg-4 {
+    margin: 2px;
+  }
+} */
+/*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
@@ -526,7 +655,7 @@ section {
 .breadcrumbs {
   margin-top: 73px;
   text-align: center;
-  background: #5fcf80;
+  background: #46c96dcb;
   padding: 30px 0;
   color: #fff;
 }

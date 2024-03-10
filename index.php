@@ -1,60 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Emnanu Foundation - A Non Govermental Organization</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-</head>
-
-<body>
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center">
-
-      <!-- <h1 class="logo me-auto"><a href="index.html">Emnanu</a></h1> -->
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li><a class="active" href="index.html">Home</a></li>
-          <li><a href="courses.html">How We Work</a></li>
-          <li><a href="trainers.html">Our Strategy</a></li>
-          <li><a href="events.html">What We Fund</a></li>
-          <li><a href="pricing.html">Campaigns</a></li>
-          <li><a href="pricing.html">Get Involved</a></li>
-          <li><a href="pricing.html">Media Centre</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
+<?php include("assets/inc/header.php") ?>
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex justify-content-center align-items-center">
@@ -85,14 +30,14 @@
             <div class="container">
               <div class="row">
                 <div class="col-lg-6 p-4">
-                  <a href="donate.php" class="btn btn-lg btn-outline-success">Our Vision</a>
+                  <a href="strategy.php" class="btn btn-lg btn-outline-success">Our Vision</a>
                   <br>
                   <p class="p-4">
                     As a humanitarian non-governmental organization, our vision is to eradicate poverty…
                   </p>
                 </div>
                 <div class="col-lg-6 p-4">
-                  <a href="donate.php" class="btn btn-lg btn-outline-success">Our Mission</a>
+                  <a href="strategy.php" class="btn btn-lg btn-outline-success">Our Mission</a>
                   <br>
                   <p class="p-4">
                     Our mission is to support and encourage the less privileged and those with special disabilities…
@@ -123,7 +68,7 @@
           <div class="col-lg-4 d-flex align-items-stretch">
             <div class="content">
               <div class="image-item p-3">
-                <img src="assets/img/HealthCare.jpg" class="img-fluid" alt="...">
+                <img src="assets/img/HealthCare.jpg" class="img-fluid rounded-4" alt="...">
               </div>
               <div class="item">
                 <h4>Health Care</h4>
@@ -140,7 +85,7 @@
           <div class="col-lg-4 d-flex align-items-stretch">
             <div class="content">
               <div class="image-item p-3">
-                <img src="assets/img/Education.jpg" class="img-fluid" alt="...">
+                <img src="assets/img/Education.jpg" class="img-fluid rounded-4" alt="...">
               </div>
               <div class="item">
                 <h4>Education</h4>
@@ -157,7 +102,7 @@
           <div class="col-lg-4 d-flex align-items-stretch">
             <div class="content">
               <div class="image-item p-3">
-                <img src="assets/img/Nutrition.jpg" class="img-fluid" alt="...">
+                <img src="assets/img/Nutrition.jpg" class="img-fluid rounded-4" alt="...">
               </div>
               <div class="item">
                 <h4>Nutrition</h4>
@@ -230,88 +175,8 @@
         </div>
 
       </div>
-    </section><!-- End Trainers Section -->
+    </section><!-- End Med Section -->
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-            
-          
-          <div class="col-lg-4 col-md-6 footer-contact">
-            <h3>Emnanu</h3>
-            <p>
-              No 40 Gerei Street <br>
-              Behind Nadi International School<br>
-              Dougirei Yola Adamawa State.<br><br>
-              <strong>Phone: </strong> +2347030651595<br>
-              <strong>Email: </strong> admin@emnamufoundation.com<br>
-            </p>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">How We Work</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Our Strategy</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">What We Fund</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Media Centre</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Login</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-links">
-            <h4>About Us</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Press Release</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Donate Now</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Join Our Team</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Our Story</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Volunteers</a></li>
-            </ul>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="container d-md-flex py-4">
-
-      <div class="me-md-auto text-center text-md-start">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Emnanu</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-          Designed by <a href="https://github.com/NelsonOmoniyi">NelsonOmoniyi</a>
-        </div>
-      </div>
-      <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
-
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
+  <?php include("assets/inc/footer.php") ?>
