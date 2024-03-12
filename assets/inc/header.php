@@ -43,13 +43,13 @@
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="active" href="index.php">Home</a></li>
-          <li><a href="work.php">How We Work</a></li>
-          <li><a href="strategy.php">Our Strategy</a></li>
-          <li><a href="fund.php">What We Fund</a></li>
-          <li><a href="pricing.html">Campaigns</a></li>
-          <li><a href="pricing.html">Get Involved</a></li>
-          <li><a href="pricing.html">Media Centre</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a class="" href="work.php">How We Work</a></li>
+          <li><a class="" href="strategy.php">Our Strategy</a></li>
+          <li><a class="" href="fund.php">What We Fund</a></li>
+          <li><a class="" href="campaign.php">Campaigns</a></li>
+          <li><a class="" href="involved.php">Get Involved</a></li>
+          <li><a class="" href="pricing.html">Media Centre</a></li>
+          <li><a class="" href="contact.html">Contact Us</a></li>
         </ul>
       </nav><!-- .navbar -->
 

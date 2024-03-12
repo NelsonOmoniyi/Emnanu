@@ -590,21 +590,122 @@ h6 {
   }
 }
 
-
 /*--------------------------------------------------------------
-# Fund Section
+# Hero4 Section
 --------------------------------------------------------------*/
-/* @media (min-width: 1024px) {
-  #fund .col-lg-4 {
-    margin: 2px;
+#hero4 {
+  width: 100%;
+  height: 80vh;
+  background: url("../img/hero4.jpg") top center;
+  background-size: cover;
+  position: relative;
+  color: #d8d3d3;
+}
+
+#hero4:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero4 .container {
+  padding-top: 72px;
+}
+
+@media (max-width: 992px) {
+  #hero4 .container {
+    padding-top: 62px;
+  }
+}
+
+#hero4 h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 1024px) {
+  #hero4 {
+    background-attachment: fixed;
   }
 }
 
 @media (max-width: 768px) {
-  #fund .col-lg-4 {
-    margin: 2px;
+  #hero4 {
+    height: 100vh;
   }
-} */
+
+  #hero4 h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Hero5 Section
+--------------------------------------------------------------*/
+#hero5 {
+  width: 100%;
+  height: 80vh;
+  background: url("../img/hero5.jpg") top center;
+  background-size: cover;
+  position: relative;
+  color: #d8d3d3;
+}
+
+#hero5:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero5 .container {
+  padding-top: 72px;
+}
+
+@media (max-width: 992px) {
+  #hero5 .container {
+    padding-top: 62px;
+  }
+}
+
+#hero5 h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (min-width: 1024px) {
+  #hero5 {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero5 {
+    height: 100vh;
+  }
+
+  #hero5 h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -652,26 +753,33 @@ section {
   color: #37423b;
 }
 
-.breadcrumbs {
+.breadcrumbs  {
   margin-top: 73px;
   text-align: center;
   background: #46c96dcb;
   padding: 30px 0;
   color: #fff;
 }
+.breadcrumbs2  {
+  margin-top: 73px;
+  text-align: center;
+  background: #dedfde63;
+  padding: 30px 0;
+  color: #0c0c0c;
+}
 
 @media (max-width: 992px) {
-  .breadcrumbs {
+  .breadcrumbs .breadcrumbs2{
     margin-top: 63px;
   }
 }
 
-.breadcrumbs h2 {
+.breadcrumbs .breadcrumbs2 h2 {
   font-size: 32px;
   font-weight: 500;
 }
 
-.breadcrumbs p {
+.breadcrumbs .breadcrumbs2 p {
   font-size: 14px;
   margin-bottom: 0;
 }
