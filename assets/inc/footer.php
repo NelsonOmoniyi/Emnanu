@@ -23,19 +23,19 @@
           <li><i class="bx bx-chevron-right"></i> <a href="work.php">How We Work</a></li>
           <li><i class="bx bx-chevron-right"></i> <a href="strategy.php">Our Strategy</a></li>
           <li><i class="bx bx-chevron-right"></i> <a href="fund.php">What We Fund</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Media Centre</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Login</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="media.php">Media Centre</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="server/login.html">Login</a></li>
         </ul>
       </div>
 
       <div class="col-lg-4 col-md-6 footer-links">
         <h4>About Us</h4>
         <ul>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Press Release</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Donate Now</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Join Our Team</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Our Story</a></li>
-          <li><i class="bx bx-chevron-right"></i> <a href="#">Volunteers</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="media.php">Press Release</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="involved.php#donate">Donate Now</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="involved.php#volunteers">Join Our Team</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="story.php">Our Story</a></li>
+          <li><i class="bx bx-chevron-right"></i> <a href="involved.php#volunteers">Volunteers</a></li>
         </ul>
       </div>
 

@@ -6,8 +6,8 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>Emnanu Foundation - A Non Govermental Organization</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta content="Emnanu Foundation - A Non Govermental Organization" name="description">
+  <meta content="Emnanu Foundation - A Non Govermental Organization" name="Author">
 
   <!-- Favicons -->
   
@@ -25,6 +25,7 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.3/components/contacts/contact-1/assets/css/contact-1.css" />
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -48,8 +49,8 @@
           <li><a class="" href="fund.php">What We Fund</a></li>
           <li><a class="" href="campaign.php">Campaigns</a></li>
           <li><a class="" href="involved.php">Get Involved</a></li>
-          <li><a class="" href="pricing.html">Media Centre</a></li>
-          <li><a class="" href="contact.html">Contact Us</a></li>
+          <li><a class="" href="media.php">Media Centre</a></li>
+          <li><a class="" href="contact.php">Contact Us</a></li>
         </ul>
       </nav><!-- .navbar -->
 

@@ -1,0 +1,1 @@
+insert into log_table (username,table_name,table_id,table_alias,created) VALUES ('sam@mail.com','menu','028','Menu Assignment','2023-03-31 07:17:14')

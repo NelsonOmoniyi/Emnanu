@@ -10,8 +10,8 @@
 <main id="main" data-aos="fade-in">
   
     <section>
-        <div class="container">
-            <div class="row p-5">
+        <div class="container" id="donate">
+            <div class="row p-5" >
                 <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
                     <img src="assets/img/I01.jpeg" class="img-fluid rounded-2" alt="">
                 </div>
@@ -32,11 +32,11 @@
 
                     <br>
                     <br>
-                        <a href="donate.php" class="btn btn-lg btn-outline-success">Donate Now</a>
+                        <a href="donate.php" class="btn btn-lg btn-outline-success">Donate Online</a>
                 </div>
             </div>
             <br>
-            <div class="row p-5">
+            <div class="row p-5" id="volunteers">
                 <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-left" data-aos-delay="100">
                 <img src="assets/img/I02.jpg" class="img-fluid rounded-2" alt="">
                 </div>
