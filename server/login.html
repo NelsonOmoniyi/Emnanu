@@ -37,8 +37,9 @@
 								    	Password is required
 							    	</div>
 								</div>
+								<div id="server_mssg"></div>
 								<div class="align-items-center d-flex">
-									<a onclick="sendLogin('form1')" class="btn btn-lg btn-success text-white">Sign in</a>
+									<a onclick="sendLogin('form1')" id="button" class="btn btn-lg btn-success text-white">Sign in</a>
 								</div>
 							</form>
 						</div>
@@ -63,20 +64,15 @@
 		forms.parsley().validate();
 		if (forms.parsley().isValid()) {
 			$.blockUI();
-			
 			var data = $("#" + id).serialize();
-			// alert(data);
+
 			$.post("utilities_default.php", data, function(res) {
 				$.unblockUI();
-				// alert(res)
-				console.log(JSON.stringify(res));
-				// return;
 				var response = JSON.parse(res);
 				
 				if (response.response_code == 0) {
 					$("#button").attr("disabled", true);
 					$("#server_mssg").text(response.response_message);
-					;
 					setTimeout(() => {
 						window.location = 'home.php';
 					}, 1000);

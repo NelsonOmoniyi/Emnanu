@@ -29,7 +29,7 @@ Class Users extends dbobject{
                 $key = $username;
                 $cipher_password = $desencrypt->des($key, $password, 1, 0, null,null);
                 $str_cipher_password = $desencrypt->stringToHex ($cipher_password);
-                // var_dump($encrypted_password);
+                // var_dump($str_cipher_password);
                 // exit;
                 if($str_cipher_password == $encrypted_password)
                 {

@@ -7,8 +7,7 @@ include('class/users.php');
 
 // User.login
 $op = $_REQUEST['op'];
-var_dump($op);
-exit;
+
 //user.register
 //$op =  $dbobject->DecryptData("pacific",$op);
 $operation  = array();
