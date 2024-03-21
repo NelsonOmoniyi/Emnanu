@@ -59,7 +59,7 @@ class Payment extends dbobject
             }',
               CURLOPT_HTTPHEADER => array(
                 'Content-Type: application/json',
-                'Authorization: Bearer sk_test_9cc414d8eb0800a0f1b9dfaba7c3415250fea45b',
+                
                 'Cookie: __cf_bm=j3Kg8vZzoMxuN9TCvHIklZdpmWdWhVK.N5wcv37PI7s-1710871926-1.0.1.1-5JV4MOJ3Rt7aJsyiNCxlD9E6BELDdNbnMx0powgKshmX_snrksJwHY6A7P1MuL4JEXb.N32wEodrxLPOw7lFmw; sails.sid=s%3AvrmAldVsW_nrKqmN_Ysh01_9Mc742024.wMY1ECaZuHL9ThpRM8H%2FWz00AlKuzwMWJYWK1mAbX1s'
               ),
             ));
