@@ -1,1 +1,1 @@
-UPDATE menu SET menu_name='Users',menu_url='user_list.php',parent_id='004',icon='' WHERE  menu_id='028' 
+UPDATE menu SET menu_name='Finance Report',menu_url='sidenumber_list.php',parent_id='148',icon='' WHERE  menu_id='147' 

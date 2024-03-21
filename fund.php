@@ -63,7 +63,7 @@
             <img src="assets/img/F05.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <br>
-              <h5 class="card-title">Enviroment</h5>
+              <h5 class="card-title">Environment</h5>
               <br> 
               <p class="card-text">Our goal is to make sure people live in a healthy and toxic-free environment. We advocate for a clean and tidy Adamawa, which will translate to a healthy state. We have achieve this goal through the provision of houses, and good roads for people at rural areas. After all, "cleanliness is next to Godliness."</p>
             </div>

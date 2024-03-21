@@ -1,1 +1,1 @@
-SELECT COUNT(role_id) AS counter FROM role WHERE  1 = 1  order by role_id asc
+SELECT COUNT(ref_id) AS counter FROM transactions WHERE  1 = 1  order by ref_id asc

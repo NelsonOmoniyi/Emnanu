@@ -16,23 +16,23 @@ Class Message extends dbobject{
 
          $validation = $this->validate($data,
          array(
-             'form-name'=>'required',
-             'form-subject'=>'required',
+             'fullname'=>'required',
+             'email'=>'required',
+             'phone'=>'required',
              'message'=>'required',
-             "form-email"=>'email'
          ),
-         array('form-email'=>'Email Address','form-subject'=>'Message Subject','message'=>'Message', 'form-name'=>'Name')
+         array('email'=>'Email Address','phone'=>'Phone Number','message'=>'Message', 'fullname'=>'Full Name')
         );
         if(!$validation['error'])
         {
 
-            $name = preg_replace('/[^A-Za-z0-9\-]/', '',$data["form-name"]);
-            $email = $data["form-email"];
-            $subject = preg_replace('/[^A-Za-z0-9\-]/', '',$data["form-subject"]);
+            $name = $data["fullname"];
+            $email = $data["email"];
+            $phone = $data["phone"];
             $message = preg_replace('/[^A-Za-z0-9\-]/', ' ',$data["message"]);
             $date = date('Y-m-d H:i:s');
 
-             $sql = "INSERT INTO messages (name, email, subject, message, date_recieved) values ('$name', '$email', '$subject', '$message', '$date')";
+             $sql = "INSERT INTO message (fullname, email, phone, message, date) values ('$name', '$email', '$phone', '$message', '$date')";
          
             $mess = $this->db_query($sql, false);
                
@@ -100,11 +100,11 @@ Class Message extends dbobject{
 		$primary_key   = "id";
 		$columner = array(
 			array( 'db' => 'id', 'dt' => 0 ),
-			array( 'db' => 'name', 'dt' => 1 ),
+			array( 'db' => 'fullname', 'dt' => 1 ),
 			array( 'db' => 'email',  'dt' => 2 ),
-			array( 'db' => 'subject', 'dt' => 3),
+			array( 'db' => 'phone', 'dt' => 3),
          array( 'db' => 'message', 'dt' => 4 ),
-         array( 'db' => 'date_recieved',  'dt' => 5),
+         array( 'db' => 'date',  'dt' => 5),
 			);
 		$filter = "";
 //		$filter = " AND role_id='001'";

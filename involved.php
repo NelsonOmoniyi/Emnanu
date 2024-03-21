@@ -46,7 +46,7 @@
                 
                 <br>
                     <br>
-                        <a href="joinus.php" class="btn btn-lg btn-outline-success">Join Us!</a>
+                        <a href="contact.php" class="btn btn-lg btn-outline-success">Join Us!</a>
                 </div>
             </div>
         </div>

@@ -19,12 +19,8 @@ include_once("libs/dbfunctions.php");
                                 <th>Name</th>
                                 <th>Email</th>
                                <th>Phone Number </th>
-                                <th>Item</th>
                                 <th>Amount</th>
-                                <th>Confirmation Message</th>
-                                <th>Verification Code</th>
-                                <th>Channel</th>
-                                <th>Currency</th>
+                                <th>Status</th>
                                 <th>Date</th>
                             </tr>
                         </thead>

@@ -18,7 +18,7 @@ include_once("libs/dbfunctions.php");
                                 <th>S/N</th>
                                 <th>Sender Name</th>
                                 <th>Sender Email</th>
-                               <th>Subject </th>
+                               <th>Phone Number </th>
                                 <th>Message Body</th>
                                 <th>Date Sent</th>
                             </tr>

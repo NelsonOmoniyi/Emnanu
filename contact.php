@@ -6,7 +6,7 @@
     <br> <br> <br>
     <div class="row justify-content-md-center">
       <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-        <h2 class="mb-4 display-5 text-center">Contact</h2>
+        <h2 class="mb-4 display-5 text-center">Contact Us Right Now!</h2>
         <p class="text-secondary mb-5 text-center">We appreciate all suggestions and questions about Emnamu Foundation and how we work, so always feel free to reach out to us by filling the form below.</p>
         <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle">
       </div>
@@ -18,7 +18,8 @@
       <div class="col-12 col-lg-9">
         <div class="bg-white border rounded shadow-sm overflow-hidden">
 
-          <form action="#!">
+        <form id="form1" onsubmit="return false">
+              <input type="hidden" name="op" value="Message.save_message">
             <div class="row gy-4 gy-xl-5 p-4 p-xl-5">
               <div class="col-12">
                 <label for="fullname" class="form-label">Full Name <span class="text-danger">*</span></label>
@@ -52,7 +53,8 @@
               </div>
               <div class="col-12">
                 <div class="d-grid">
-                  <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+                <div id="server_mssg"></div>
+                        <button id="button" class="btn btn-primary mb-1">Send Message</button>
                 </div>
               </div>
             </div>
@@ -63,5 +65,52 @@
     </div>
   </div>
 </section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="server/js/jquery.blockUI.js"></script>
+<script src="server/js/parsely.js"></script>
+<script src="server/js/sweet_alerts.js"></script>
+<script src="server/js/main.js"></script>
+<script>
+	$("#button").click(function(){
+        var id = 'form1'
+        var forms = $('#' + id);
+		forms.parsley().validate();
+		if (forms.parsley().isValid()) {
+			$.blockUI();
+			var data = $("#" + id).serialize();
+            // console.log(data);
+            // return;
+			$.post("server/utilities.php", data, function(res) {
+				$.unblockUI();
+                // console.log(res);
+                // alert(res)
+				var response = JSON.parse(res);
+				// alert(response.redirect)
+                var redirect = response.redirect;
+                var rescode = response.response_code;
+                var resmessage = response.response_message;
 
+				if (rescode == 200) {
+                    
+                    swal({
+                        text: resmessage,
+                        icon: "success",
+                    });
+                    $("#button").attr("disabled", true);
+                    
+					setTimeout(() => {
+						window.location = 'http://localhost/emnanu/index.php';
+					}, 1000);
+				} else {
+                    $("#button").attr("enabled", true);
+					$("#server_mssg").html(response.response_message);
+				}
+			});
+		}
+    });
+
+	window.onbeforeunload = function() {
+		return 'You cannot leave this page';
+	}
+</script>
 <?php include("assets/inc/footer.php") ?>

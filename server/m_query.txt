@@ -1,1 +1,1 @@
-insert into log_table (username,table_name,table_id,table_alias,created) VALUES ('sam@mail.com','menu','028','Menu Assignment','2023-03-31 07:17:14')
+insert into userdata (account_name,username,password,firstname,lastname,mobile_phone,sex,role_id,day_1,day_2,day_3,day_4,day_5,day_6,day_7,parish_pastor,passchg_logon,user_disabled,user_locked,posted_user,email,created) VALUES ('','nelson@mail.com','0xe2b193986e78a2ac','Nelson','Omoniyi','08096506422','male','002','1','1','1','1','1','1','1','1','0','0','0','sam@mail.com','nelson@mail.com','2024-03-21 12:16:41')

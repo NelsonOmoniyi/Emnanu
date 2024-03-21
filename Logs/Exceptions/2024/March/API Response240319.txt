@@ -1,0 +1,57 @@
+Logged at 2024-03-19 20:26:25
+{"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/gtxck0adijeomjn","access_code":"gtxck0adijeomjn","reference":"eiws1wisti"}}
+
+Logged at 2024-03-19 20:28:07
+{"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/5i69kchve7muumg","access_code":"5i69kchve7muumg","reference":"uo13x833wt"}}
+
+Logged at 2024-03-19 20:39:49
+{"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/tmbytqjdz6lhpc0","access_code":"tmbytqjdz6lhpc0","reference":"2q01camwzz"}}
+
+Logged at 2024-03-19 20:44:24
+{"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/opsjag8bws4kutk","access_code":"opsjag8bws4kutk","reference":"qy7ftns4n2"}}
+
+Logged at 2024-03-19 20:44:52
+{"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/0j9zr7ta5yseodc","access_code":"0j9zr7ta5yseodc","reference":"425rib2wap"}}
+
+Logged at 2024-03-19 20:46:06
+{"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/m5e9yxo5e77xqr3","access_code":"m5e9yxo5e77xqr3","reference":"5r4n2ylt4t"}}
+
+Logged at 2024-03-19 20:48:10
+{"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/dvret6xd57ss6gu","access_code":"dvret6xd57ss6gu","reference":"a9jvbe7piu"}}
+
+Logged at 2024-03-19 20:49:57
+{"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/2k1ttodop45u92v","access_code":"2k1ttodop45u92v","reference":"1uz64ttjb9"}}
+
+Logged at 2024-03-19 20:50:31
+{"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/tgyiw5nxyy27kpi","access_code":"tgyiw5nxyy27kpi","reference":"l8wz2icpqj"}}
+
+Logged at 2024-03-19 20:51:45
+{"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/6yne6s3cqg46jk6","access_code":"6yne6s3cqg46jk6","reference":"2kid8kexqe"}}
+
+Logged at 2024-03-19 20:51:59
+{"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/ny66ngfmr16c5x3","access_code":"ny66ngfmr16c5x3","reference":"2nsy9hiq41"}}
+
+Logged at 2024-03-19 20:53:35
+{"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/x5uw3r4rcjcumup","access_code":"x5uw3r4rcjcumup","reference":"4auq9alnbn"}}
+
+Logged at 2024-03-19 20:56:15
+{"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/cu11q6jzek82vhc","access_code":"cu11q6jzek82vhc","reference":"7yn688ozds"}}
+
+Logged at 2024-03-19 21:00:11
+{"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/cw075wxnosnfxln","access_code":"cw075wxnosnfxln","reference":"ih289zzleu"}}
+
+Logged at 2024-03-19 21:01:03
+{"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/u17v2xxs6xv33ed","access_code":"u17v2xxs6xv33ed","reference":"hrtpkovm6x"}}
+
+Logged at 2024-03-19 21:04:52
+{"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/qgkbn8h7knphjel","access_code":"qgkbn8h7knphjel","reference":"8m3vf9c28v"}}
+
+Logged at 2024-03-19 21:06:06
+{"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/5ctxri8pvjkiwa3","access_code":"5ctxri8pvjkiwa3","reference":"pcufk8pt4w"}}
+
+Logged at 2024-03-19 21:08:43
+{"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/z5pd81z817zxf5d","access_code":"z5pd81z817zxf5d","reference":"eo7dku993x"}}
+
+Logged at 2024-03-19 22:07:39
+{"status":true,"message":"Authorization URL created","data":{"authorization_url":"https://checkout.paystack.com/sfny5acxckds3r0","access_code":"sfny5acxckds3r0","reference":"nfmy3j4pla"}}
+

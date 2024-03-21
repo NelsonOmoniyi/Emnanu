@@ -45,7 +45,7 @@
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div class="col-lg-4">
-            <div class="card bg-success-subtle" style="width: 18rem; height: 30rem;">
+            <div class="card" style="width: 18rem; height: 30rem; background: transparent;">
               <div class="card-body p-4">
                 <h4 class="card-title text-decoration-underline">Our Vision</h4>
                 <p class="card-text">As a humanitarian non-governmental organization, our vision is to eradicate poverty, support the less privileged and empower those with special disabilities in our society.</p>
@@ -53,7 +53,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card bg-success-subtle" style="width: 18rem; height: 30rem;">
+            <div class="card" style="width: 18rem; height: 30rem; background: transparent;">
               <div class="card-body p-4">
                 <h4 class="card-title text-decoration-underline">Our Mission</h4>
                 <p class="card-text">Our mission is to support and encourage the less privileged and those with special disabilities by contributing our quota to eradicating poverty through outreaches, skill acquisition, and empowerment programs to various communities in Adamawa and Nigeria at large.</p>
@@ -61,7 +61,7 @@
             </div>
           </div>
           <div class="col-lg-4">
-            <div class="card bg-success-subtle" style="width: 18rem; height: 30rem;">
+            <div class="card" style="width: 18rem; height: 30rem; background: transparent;">
               <div class="card-body p-4">
                 <h4 class="card-title text-decoration-underline">Our Goals</h4>
                 <p class="card-text">

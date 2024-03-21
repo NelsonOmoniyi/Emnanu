@@ -1,1 +1,1 @@
-SELECT COUNT(role_id) AS counter FROM role WHERE  1 = 1  order by role_id asc
+select State from lga where stateid=''
