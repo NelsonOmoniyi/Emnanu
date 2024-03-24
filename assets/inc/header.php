@@ -29,34 +29,35 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
 
 <body>
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center">
-
-      <!-- <h1 class="logo me-auto"><a href="index.html">Emnanu</a></h1> -->
-      <!-- Uncomment below if you prefer to use an image logo -->
-      
-      <a href="index.php" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <nav id="navbar" class="navbar order-last order-lg-0">
-          <ul>
-            <li><a class="active" href="index.php">Home</a></li>
-            <li><a class="" href="work.php">How We Work</a></li>
-            <li><a class="" href="strategy.php">Our Strategy</a></li>
-            <li><a class="" href="fund.php">What We Fund</a></li>
-            <li><a class="" href="campaign.php">Campaigns</a></li>
-            <li><a class="" href="involved.php">Get Involved</a></li>
-            <li><a class="" href="media.php">Media Centre</a></li>
-            <li><a class="" href="contact.php">Contact Us</a></li>
-          </ul>
-        </nav><!-- .navbar -->
-      </div>
-    </div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+        <a href="index.php" class="logo me-auto pr-5">
+          <img src="assets/img/logo.png" alt="" class="img-fluid">
+        </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" style="margin-left: 20%;" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" aria-current="page" href="index.php">Home</a>
+                    <a class="nav-item nav-link" href="work.php">How We Work</a>
+                    <a class="nav-item nav-link" href="strategy.php">Our Strategy</a>
+                    <a class="nav-item nav-link" href="fund.php">What We Fund</a>
+                    <a class="nav-item nav-link" href="campaign.php">Campaigns</a>
+                    <a class="nav-item nav-link" href="involved.php">Get Involved</a>
+                    <a class="nav-item nav-link" href="media.php">Media Centre</a>
+                    <a class="nav-item nav-link" href="contact.php">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
   </header><!-- End Header -->
