@@ -55,7 +55,7 @@ class Payment extends dbobject
               CURLOPT_POSTFIELDS =>'{
                 "email": "'.$email.'",
                 "amount": "'.$amount.'",
-                "callback_url": "http://localhost/emnanu/thanks.php"
+                "callback_url": "https:/emnamufoundation.org/thanks.php"
             }',
               CURLOPT_HTTPHEADER => array(
                 'Content-Type: application/json',

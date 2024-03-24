@@ -59,7 +59,7 @@
           <div class="col-lg-12 text-center" data-aos="fade-left" data-aos-delay="100">
             <div class="section-title">
               <p>What We Fund</p>
-              <h2>We connect nonprofits, donors, and companies in nearly every country around the world.</h2>
+              <h3 class="text-break">We connect nonprofits, donors, and companies in nearly every country around the world.</h3>
             </div>
           </div>
         </div>

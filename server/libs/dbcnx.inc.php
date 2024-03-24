@@ -7,10 +7,10 @@ class dbcnx
     //  public $pass  = "mfedoowebsite1";
     //  public $db    = "4081495_mfedoo";
 
-	 public $host  = "localhost";
-     public $user  = "root";
-     public $pass  = "";
-     public $db    = "emnanu";
+	 public $host  = "https://emnamufoundation.org";
+     public $user  = "emnamufo_nelson";
+     public $pass  = "Wshadow2000.";
+     public $db    = "emnamufo_db";
 
      public $myconn;
 	public function connect()

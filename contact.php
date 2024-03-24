@@ -99,7 +99,7 @@
                     $("#button").attr("disabled", true);
                     
 					setTimeout(() => {
-						window.location = 'http://localhost/emnanu/index.php';
+						window.location = 'https:/emnamufoundation.org/index.php';
 					}, 1000);
 				} else {
                     $("#button").attr("enabled", true);

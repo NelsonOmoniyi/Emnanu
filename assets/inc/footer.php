@@ -50,7 +50,7 @@
       &copy; <?php echo date('Y');?> <strong><span>Emnanu Foundation</span></strong>. All Rights Reserved. The information presented herein is dynamic and subject to change.
     </div>
     <div class="credits">
-      Developed by <a href="https://github.com/NelsonOmoniyi">NelsonOmoniyi</a>
+      Developed by <a href="https://github.com/NelsonOmoniyi" target="_blank">NelsonOmoniyi</a>
     </div>
   </div>
   <div class="social-links text-center text-md-right pt-3 pt-md-0">
