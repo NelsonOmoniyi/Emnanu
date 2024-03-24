@@ -39,20 +39,24 @@
 
       <!-- <h1 class="logo me-auto"><a href="index.html">Emnanu</a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
+      
       <a href="index.php" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li><a class="active" href="index.php">Home</a></li>
-          <li><a class="" href="work.php">How We Work</a></li>
-          <li><a class="" href="strategy.php">Our Strategy</a></li>
-          <li><a class="" href="fund.php">What We Fund</a></li>
-          <li><a class="" href="campaign.php">Campaigns</a></li>
-          <li><a class="" href="involved.php">Get Involved</a></li>
-          <li><a class="" href="media.php">Media Centre</a></li>
-          <li><a class="" href="contact.php">Contact Us</a></li>
-        </ul>
-      </nav><!-- .navbar -->
-
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li><a class="active" href="index.php">Home</a></li>
+            <li><a class="" href="work.php">How We Work</a></li>
+            <li><a class="" href="strategy.php">Our Strategy</a></li>
+            <li><a class="" href="fund.php">What We Fund</a></li>
+            <li><a class="" href="campaign.php">Campaigns</a></li>
+            <li><a class="" href="involved.php">Get Involved</a></li>
+            <li><a class="" href="media.php">Media Centre</a></li>
+            <li><a class="" href="contact.php">Contact Us</a></li>
+          </ul>
+        </nav><!-- .navbar -->
+      </div>
     </div>
   </header><!-- End Header -->
