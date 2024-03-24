@@ -1,1 +1,1 @@
-select State from lga where stateid=''
+SELECT username,firstname,lastname,sex,role_id,password,user_locked,user_disabled,pin_missed,day_1,day_2,day_3,day_4,day_5,day_6,day_7,passchg_logon,photo,church_id FROM userdata WHERE username = 'sam@mail.com' LIMIT 1

@@ -7,7 +7,7 @@ class dbcnx
     //  public $pass  = "mfedoowebsite1";
     //  public $db    = "4081495_mfedoo";
 
-	 public $host  = "https://emnamufoundation.org";
+	 public $host  = "https://standard7.doveserver.com";
      public $user  = "emnamufo_nelson";
      public $pass  = "Wshadow2000.";
      public $db    = "emnamufo_db";
@@ -21,6 +21,7 @@ class dbcnx
 		  printf("Connect failed: %s\n", mysqli_connect_error());
 		//   exit();
 		}
+
 		return $this->myconn;
 	}
 }
