@@ -7,7 +7,7 @@ class dbcnx
     //  public $pass  = "mfedoowebsite1";
     //  public $db    = "4081495_mfedoo";
 
-	 public $host  = "localhost";
+	 public $host  = "standard7.doveserver.com:2083";
      public $user  = "emnamufo_nelson";
      public $pass  = "Wshadow2000.";
      public $db    = "emnamufo_db";
