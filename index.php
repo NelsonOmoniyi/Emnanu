@@ -76,7 +76,7 @@
                   The Emnamu Foundation is dedicated to providing quality health facilities like hospitals, drugs, wheelchairs, and other health-related materials across Adamawa State.
                 </p>
                 <div class="text-center">
-                  <a href="about.html" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                  <a href="fund.php" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
               </div>
             </div>
@@ -93,7 +93,7 @@
                   Poverty and unavailability of educational materials are two fundamental factors that affect and hinder the learning process of many children in Africa. Thus, depriving them of the opportunity to acquire quality education.
                 </p>
                 <div class="text-center">
-                  <a href="about.html" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                  <a href="fund.php" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
               </div>
             </div>
@@ -110,7 +110,7 @@
                   We donate food and relief materials to children in orphanage homes and internally displaced persons. Our foundation has distributed thousands of bags of rice to several communities in the state, and we are committed to eradicating hunger in Nigeria.
                 </p>
                 <div class="text-center">
-                  <a href="about.html" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                  <a href="fund.php" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
                 </div>
               </div>
             </div>
