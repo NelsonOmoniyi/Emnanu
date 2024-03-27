@@ -169,7 +169,7 @@
         <div class="row">
           <div class="col-lg-12 text-center" data-aos="fade-left" data-aos-delay="100">
             <div class="know-more">
-              <a href="more" class="btn btn-lg btn-outline-success">See More!</a>
+              <a href="media.php" class="btn btn-lg btn-outline-success">See More!</a>
             </div>
           </div>
         </div>
